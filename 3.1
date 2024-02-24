@@ -1,0 +1,8 @@
+try:
+    pembelian = float(input("Masukkan total pembelian Anda: "))
+    if pembelian >= 100000:
+        print("Anda memenuhi syarat untuk menggunakan voucher diskon 30%.")
+    else:
+        print("Maaf, Anda tidak memenuhi syarat untuk menggunakan voucher diskon 30%.")
+except ValueError:
+    print("Masukan yang Anda berikan tidak valid. Harap masukkan angka.")
